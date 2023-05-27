@@ -1,0 +1,90 @@
+.home-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 800px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.head-section {
+  display: flex;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 40px;
+}
+.nameInput {
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.dateInput {
+  height: 30px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 170px;
+}
+.button {
+  background-color: rgb(130, 130, 219);
+  color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px grey;
+  width: 100px;
+  height: 35px;
+  border: 0px;
+  justify-self: center;
+}
+.image {
+  height: 200px;
+  width: 300px;
+  align-self: flex-end;
+}
+.horizontal-line {
+  color: rgb(80, 77, 77);
+  width: 650px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid;
+}
+.titleText {
+  font-size: 13px;
+  /* font-weight: bold; */
+  color: grey;
+  margin-bottom: 6px;
+}
+.appointments-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.heading2 {
+  margin-left: 30px;
+}
+.starredButton {
+  background-color: #ffffff;
+  color: black;
+}
+
+.activeStarredButton {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+.filter-style {
+  border-radius: 10px;
+
+  font-size: 12px;
+  height: 40px;
+  width: 100px;
+}
+.appStar {
+  display: flex;
+  justify-content: space-between;
+}
